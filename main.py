@@ -38,22 +38,21 @@ with col2:
     )
 
     st.caption(
-        st.caption(
-            """
-            Upload a single Billing workbook containing BOTH required sheets:
-            
-            Required Sheet Names:
-            - Billed
-            - Not Billed
-            
-            Required Columns:
-            so_number, dont_bill_reason, dont_bill_remarks
-            
-            Note:
-            Headers can be located anywhere within the first 10 rows.
-            """
-        )
+        """
+        Upload a single Billing workbook containing BOTH required sheets:
+        
+        Required Sheet Names:
+        - Billed
+        - Not Billed
+        
+        Required Columns:
+        so_number, dont_bill_reason, dont_bill_remarks
+        
+        Note:
+        Headers can be located anywhere within the first 10 rows.
+        """
     )
+    
 
 # ---------------- RUN BUTTON ----------------
 
